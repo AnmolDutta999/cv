@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conatct Details</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <ul>
+        <li>Phone number: 7428111091</li>
+        <li>Email id: anmoldutta48@gmail.com</li>
+    </ul>
+    <hr>
+    <!-- below is the form we made in our contact me page -->
+    <!--input tag is self closing tag-->
+    <!--I have changed action to mailto so that whatever user will type will be mailed to me, method is post(to post message) 
+    and enctype is encryttion type and we made that plain text -->
+    <form action="mailto:anmoldutta48@gmail.com" method="post" enctype="text/plain">
+        <label for="">Your Name:</label> <!--for user/or to show the user what he should input  -->
+        <input type="text" name="yourText"> <br><!--show user a text box to enter his/her name in it-->  
+        <label for="">Your Email:</label>
+        <input type="email" name="yourEmail"><br> <!--Type email provides user with atextbox which takes input in email syntax-->
+        <label for="">Your Message:</label><br>
+        <textarea name="yourMessage" id="" cols="10" rows="30"></textarea><br><!--Text area is the area provided by us to the user so 
+        that he/she can write any message he wants to, We can specify the area or limit the area of this message box by 
+        simply changing no of rows and columns(cols) -->
+        <!--This textarea is adjustable means the user can adjust the shape in which he wants to 
+        input in square or rectangle-->
+        <input type="submit"> <!--The final submit button after pressing on it the form will get submit-->
+    </form>
+</body>
+</html>

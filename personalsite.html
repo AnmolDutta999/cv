@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmol's Personal Site</title>
+  </head>
+
+  <body>
+    <!-- here we have used table tag to make the layout of our website more genuine inside the table tag we made 1 row and in that row there are 2 data cells in one cell thre is image and in another cell there is my info and my contact.html page  -->
+    <table cellspacing="20">
+      <tr>
+        <td><img src="Anmol.png" alt="Anmol profile picture" width="200" height="200" /></td>
+        <td><h1>Anmol Dutta</h1>
+          <p>
+            <em
+              >Currently a student in
+              <strong> <a href="https://www.jimsindia.org/">JIMS.</a></strong></em
+            >
+          </p>
+          <p>
+            I am doing by <strong>BCA</strong> and various extra certified courses
+            such as <em>Web Development,J.Query,Node.Js</em> and many more. I have
+            covered various languages in my college also such as
+            <em>C,C++,Java</em> and <em>Python</em> in my summer training.
+          </p>
+          <!--here i refered to my own page where i have my contact details using the anchor tag and refering to my Contact.html file in the same folder -->
+          <a href="Contact.html">Contact Me</a>
+        </td>
+        </p>
+      </tr>
+    </table>
+    <hr />
+    <h3>My Education:</h3>
+    <!--In the below para we used anchor tags to link our webpage to various sites .. the syntax is <a href="our link">The name we want to adress our link as</a> -->
+    <p>
+      I did my 10th from
+      <strong
+        ><a href="https://www.titikshapublicschool.com/"
+          >Titiksha Public School</a
+        ></strong
+      >
+      with the <em>CGPA of 8.8</em> and my 12th from
+      <strong
+        ><a href="https://gnpspunjabibagh.org/"
+          >Gurunanak Public School</a
+        ></strong
+      >
+      with <em>Non-Medical</em>.
+    </p>
+    <hr />
+    <h3>My Speciality</h3>
+    <!--There are 2 types of lists in HTML ordered lists(ol) and unordered lists(ul) we have various types to design both ordered lists and unordered lists -->
+    <!--ordered lists have manny types such as A,a,I,i and 1 and the syntax is -> <ol type="A"> and the default is numerical if we doesn't specify the type we want -->
+    <!--unordered lists have three types disc,square and circle and the syntax for one example is like -><ul type="square" the default is disc if we doesn't specify the type we want>-->
+    <ul>
+      <li>Confident.</li>
+      <li>Team Management.</li>
+      <li>Skilled in many languages such as:</li>
+      <ol type="a">
+        <li>C++.</li>
+        <li>Java.</li>
+        <li>Python.</li>
+        <li>J.Query.</li>
+      </ol>
+    </ul>
+    <hr>
+    <h3>My Hobbies</h3>
+    <ol>
+      <li>Gyming.</li>
+      <li>Playing video games.</li>
+      <li>Playing Football.</li>
+      <li>Listening Music.</li>
+    </ol>
+    <!--This is paragraph tag -->
+    <!-- for italisize the text we can use both <i></i> tag as well as <em></em> tag but
+         we will always use em tag because it tells the brower to emphasize that word or text
+         rather than giving it a style which the i tag tells to the browser  -->
+    <!-- same goes for <b></b> tag and <strong></strong> tag use strong tag over b tag because
+         strong tag tells the browser that the specific text has a strong importance     -->
+    <hr> 
+    <h3>Work Experience</h3>
+    <!-- below is the main format of our table we make three sections in our table head,body and foot of the table so that in future we can edit each of them seperately if we want to  -->
+    <!-- <tr></tr> tage is for rows in the table , in below table we made 2 rows and therefore 2 data elements cells in each row by using <td></td> tag   -->
+    <!-- inside the head there are <th></th> tags that represents the header cell i.e the heading of our colums , the text in these tags are by default bold  -->
+    <table cellspacing="10">
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2015</td>
+          <td>Lead developer in XYZ project</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Researcher in XYZ company</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <h3>My Skills</h3>
+    <!-- down below we have nested two tables inside a table , our first table is inside only one row having two <td></td> elements i.e two data set elements and each data set element has a table in it representing my skills  -->
+<table cellspacing="10">  <!--Starting of main table-->
+  <tr>
+    <!-- this data element has one table in it  -->
+    <td> 
+    <table>
+      <tr>
+        <td>Web Development</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>C++ Language</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Html 5</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Java/JS</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+    </table>
+  </td>
+  <!-- and this data element has another table in it  -->
+    <td>
+      <table>
+        <tr>
+          <td>CSS</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Photography</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Painting</td>
+          <td>⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table> <!--Ending of main table-->
+  </body>
+</html>
