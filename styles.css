@@ -1,0 +1,21 @@
+/* here we have taken the code from our body section and pasted it here to link this code externally to our website  */
+body{
+    background-color:#d3f7f3;
+  }
+    
+  h1{
+      text-shadow: 2px 2px rgb(185, 185, 185);
+      color: rgb(5, 150, 150);
+  }
+
+  h3{
+      color:rgb(5, 150, 150) ;
+  }
+    
+  hr{
+    border-style: dotted none none;
+    border-color: rgb(130, 133, 136);
+    border-width: 4px;
+    border-width: 4px;
+    width: 5%;
+  }
